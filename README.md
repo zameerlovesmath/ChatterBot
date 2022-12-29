@@ -20,6 +20,9 @@
 For Wolfram Alpha API key go to https://developer.wolframalpha.com/portal/myapps/
 For OpenAI API key go to https://beta.openai.com/account/api-keys
 
+# Setting up GitHub CLI
+Run `gh auth login` and it will guide you through the steps 
+
 # Powered by:
 This project is powered by:
 1. OpenAI GPT-3
