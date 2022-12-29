@@ -3,7 +3,7 @@ import openai
 import time
 import wolframalpha
 Wolfram_Key = "Your Wolfram Alpha API key"
-openai.api_key = "You OpenAI API key"
+openai.api_key = "Your OpenAI API key"
 client=wolframalpha.Client(Wolfram_Key)
 class ChatterBot:
   def respond_to(myprompt):
