@@ -16,6 +16,10 @@
 1. Programmer: Python programmer. Usually, it would help if you started your prompts with "Make a ...".
 2. Any personality not listed
 
+# Getting the API keys
+For Wolfram Alpha API key go to https://developer.wolframalpha.com/portal/myapps/
+For OpenAI API key go to https://beta.openai.com/account/api-keys
+
 # Powered by:
 This project is powered by:
 1. OpenAI GPT-3
