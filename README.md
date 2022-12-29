@@ -1,5 +1,5 @@
 # Installation
-1. Make sure you have GitHub CLI.
+1. Make sure you have GitHub CLI installed.
 2. Run `pip install openai`
 3. Run `pip install wolframalpha`
 4. Run `gh repo clone zameerlovesmath/ChatterBot`
