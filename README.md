@@ -1,7 +1,10 @@
 # Installation
 1. Make sure you have GitHub CLI.
-2. Run gh repo clone zameerlovesmath/ChatterBot
-3. In ChatterBot.py change "Your Wolfram Alpha API key" to your Wolfram Alpha API key and change "Your OpenAI API key" to your OpenAI API key 
+2. Run `pip install openai`
+3. Run `pip install wolframalpha`
+4. Run `gh repo clone zameerlovesmath/ChatterBot`
+5. In ChatterBot.py change "Your Wolfram Alpha API key" to your Wolfram Alpha API key and change "Your OpenAI API key" to your OpenAI API key 
+6. Run ChatterBot.py
 
 # Best Personalities:
 1. Friendly: Normal ChatBot
