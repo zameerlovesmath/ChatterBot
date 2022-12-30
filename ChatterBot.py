@@ -27,8 +27,9 @@ class ChatterBot:
       else:
         print(output[i])
   def chatbot(personality):
+    username = input("What is your username? ")
     if personality != "smart" and personality != "rickroller" and personality != "programmer":
-      userinput = input("User: ")
+      userinput = input(username+": ")
       if userinput != "exit":
         print()
         print("ChatterBot: ",end="")
@@ -39,7 +40,7 @@ class ChatterBot:
         ChatterBot.main()
       while True:
         print()
-        userinput = input("User: ")
+        userinput = input(username+": ")
         if userinput != "exit":
           print()
           print("ChatterBot: ",end="")
@@ -50,7 +51,7 @@ class ChatterBot:
           ChatterBot.main()
     if personality == "smart":
       while True:
-        query = input("User: ")
+        query = input(username+": ")
         if query != "exit":
           print()
           res = client.query(query)
@@ -63,7 +64,7 @@ class ChatterBot:
     if personality == "rickroller":
       lyric = 0
       while True:
-        userinput = input("User: ")
+        userinput = input(username+": ")
         if userinput != "exit":
           print()
           while True:
@@ -71,35 +72,35 @@ class ChatterBot:
               print("ChatterBot: Never gonna give you up")
               print()
               lyric += 1
-            userinput = input("User: ")
+            userinput = input(username+": ")
             if userinput != "exit":
               print()
               if lyric == 1:
                 print("ChatterBot: Never gonna let you down")
                 print()
                 lyric += 1
-              userinput = input("User: ")
+              userinput = input(username+": ")
               if userinput!= "exit":
                 print()
                 if lyric == 2:
                   print("ChatterBot: Never gonna run around and desert you")
                   print()
                   lyric += 1
-                userinput = input("User: ")
+                userinput = input(username+": ")
                 if userinput != "exit":
                   print()
                   if lyric == 3:
                     print("ChatterBot: Never gonna make you cry")
                     print()
                     lyric += 1
-                  userinput = input("User: ")
+                  userinput = input(username+": ")
                   if userinput!= "exit":
                     print()
                     if lyric == 4:
                       print("ChatterBot: Never gonna say goodbye")
                       print()
                       lyric += 1
-                    userinput = input("User: ")
+                    userinput = input(username+": ")
                     if userinput!= "exit":
                       print()
                       if lyric == 5:
@@ -117,7 +118,7 @@ class ChatterBot:
               else:
                 os.system("clear")
                 ChatterBot.main()
-              userinput = input("User: ")
+              userinput = input(username+": ")
               print()
               lyric = 0
             else:
@@ -125,7 +126,7 @@ class ChatterBot:
               ChatterBot.main()
     if personality == "programmer":
       while True:
-        userinput = input("User: ")
+        userinput = input(username+": ")
         if userinput!= "exit":
           print()
           print("ChatterBot: ")
