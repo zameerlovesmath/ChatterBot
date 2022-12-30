@@ -8,6 +8,7 @@
 7. Run `python ChatterBot.py`
 
 # Best Personalities:
+Note: when it asks you for the personality respond in all lowercase
 1. Friendly: Normal ChatBot
 2. Smart: Made for solving math problems
 3. Rickroller: You can guess what this does...
