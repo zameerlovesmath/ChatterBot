@@ -28,6 +28,7 @@ class ChatterBot:
         print(output[i])
   def chatbot(personality):
     username = input("What is your username? ")
+    os.system("clear")
     if personality != "smart" and personality != "rickroller" and personality != "programmer":
       userinput = input(username+": ")
       if userinput != "exit":
